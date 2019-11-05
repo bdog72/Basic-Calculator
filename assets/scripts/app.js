@@ -51,6 +51,7 @@ function calculateResult(calculationType) {
     mathOperator = '-';
   } else if (calculationType === 'MULTIPLY') {
     currentResult *= enteredNumber;
+    mathOperator = '*';
   } else {
     // mathOperator = '*';
     currentResult /= enteredNumber;
